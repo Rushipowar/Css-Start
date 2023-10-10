@@ -1,0 +1,45 @@
+.paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+}
+.paragraph__intro{
+    background-color: #b6b6b6;
+    border: 1px solid gray;
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.paragraph__imp{
+    background-color: #ff5954;
+    border: 1px solid gray;
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.paragraph__main{
+    background-color: #535353;
+    border: 1px solid gray;
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.paragraph__warning{
+    background-color: #000000;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.paragraph__conclusion{
+    background-color: #4400ff;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}

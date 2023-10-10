@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Form</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+            <h1>SignUp Page</h1>
+            <form action="" method="get">
+                <fieldset>
+                  <legend>SignUp Now</legend>
+    
+                  <label for="fname">Firstname: </label>
+                  <input id="fname" required="" type="text" placeholder="Ram" minlength="3"> <br>
+    
+                  <label for="lname">Lastname: </label>
+                  <input id="lname" required="" type="text" placeholder="Yadav" minlength="3"> <br>
+    
+                  <label for="fname">Email: </label>
+                  <input id="email" required="" type="email" placeholder="xyz@gmail.com" minlength="3"> <br>
+    
+                  <label for="phone">Number: </label>
+                  <input id="phone" required="" type="tel" placeholder="1234567890"> <br>
+    
+                  <label for="password">Password: </label>
+                  <input id="password" required="" type="password" placeholder="Enter Your Password"> <br>
+    
+                  <label for="cpassword">Confirm Password: </label>
+                  <input id="cpassword" required="" type="password" placeholder="Confirm Your Password"> <br>
+    
+                  <label for="age">Age: </label>
+                  <input id="age" required="" type="number" min="1" max="150" placeholder="+18"> <br>
+    
+                  <label for="gender">Gender: </label>
+                  <select name="gender" id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                  </select>
+    
+                  <button type="submit">SignUp</button>
+                </fieldset>
+            </form>
+    </div>
+</body>
+</html>
